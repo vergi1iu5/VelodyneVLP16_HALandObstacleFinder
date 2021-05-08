@@ -15,7 +15,7 @@ of RAM availible in the on-board computer (256 MB).
 This folder contains the actual HAL. It comes with a PacketDriver class to be used as the way to bind to the Lidar's socket, and with a PacketDecoder class to processes the
 packets comming from the Lidar. Below is a picture from Velodyne's manual which showcases the content of each package. It will be helpful when reading my code.
 
-![Lidar's Data Package](https://github.com/vergi1iu5/VelodyneVLP16_HALandObstacleFinder/blob/main/images/data_packet.JPG)
+![Lidar's Data Package](https://github.com/vergi1iu5/VelodyneVLP16_HALandObstacleFinder/blob/main/doc/images/data_packet.JPG)
 
 Finally there is the actual VelodyneLidar class which is to serve as the top-most layer of abstaraction. This class can be used to scan the full field of view (FOV), start and stop
 the lidar, set field of view, and analyze frame for any present obstacles.
